@@ -1,10 +1,17 @@
 .head {
-    background: #fc0;
-    height: 100px;
-    position: relative;
     width: 100px;
+<<<<<<< HEAD
     border-radius: 50%;
+=======
+    height: 100px;
+    position: absolute;
+    background: #fc0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%) rotate(0deg);
+>>>>>>> Tarea1
 }
+
 .face {
     font-family: 'courier new', serif;
     font-size: 2.5em;
