@@ -4,7 +4,7 @@
     position: relative;
     width: 100px;
 }
-.face {
+#face {
     font-family: 'courier new', serif;
     font-size: 2.5em;
     font-weight: bold;

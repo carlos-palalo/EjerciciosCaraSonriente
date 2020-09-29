@@ -6,12 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>Face time!</title>
+    <script>
+        function sonrisa(){
+            face.innerHTML = ":)";
+        }
+        function noSonrisa(){
+            face.innerHTML = ":|";
+        }
+    </script>
 </head>
 
 <body>
     <div class="page">
         <div class="head">
-            <div class="face" onmouseover="this.innerHTML=':)'" onmouseout="this.innerHTML=':|'" onclick="this.innerHTML='.)'">:|</div>
+            <div id="face" onmouseover="sonrisa();" onmouseout="noSonrisa();">:|</div>
         </div>
     </div>
 </body>
