@@ -16,5 +16,5 @@
     left: 50%;
     position: absolute;
     top: 50%;
-    transform: translate(-50%, -60%) rotate(90deg);
+    transform: translate(-50%, -60%) rotate(90deg); 
 }
