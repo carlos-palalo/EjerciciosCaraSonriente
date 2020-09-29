@@ -8,8 +8,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-.face {
+#face {
     font-family: 'courier new', serif;
     font-size: 2.5em;
     font-weight: bold;
