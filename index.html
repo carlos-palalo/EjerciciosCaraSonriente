@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>Face time!</title>
+    <script>
+        function guiño(){
+            face.innerHTML=".)";
+        }
+    </script>
 </head>
 
 <body>
     <div class="page">
         <div class="head">
-            <div class="face">:|</div>
+            <div id="face" onclick="guiño();">:|</div>
         </div>
     </div>
 </body>
