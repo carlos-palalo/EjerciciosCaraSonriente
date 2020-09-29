@@ -9,14 +9,9 @@
 </head>
 
 <body>
-    <script type="text/javascript">
-        function onMouseOver{
-            document.getElementById("face").innerText = ":)";
-        }
-    </script>
     <div class="page">
         <div class="head">
-            <div class="face" onMouseOver="encima()">:|</div>
+            <div class="face" onmouseover="this.innerHTML=':)'" onmouseout="this.innerHTML=':|'">:|</div>
         </div>
     </div>
 </body>
